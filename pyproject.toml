@@ -1,12 +1,20 @@
 [build-system]
-requires = ['setuptools>=42.0', "wheel"]
+requires = ["setuptools>=45", "wheel", "setuptools_scm>=6.2"]
 build-backend = "setuptools.build_meta"
 
-[tool.pytest.ini_options]
-testpaths = [
-    "tests"
-    ]
+[project]
+name = "mongodbconnector"
+version = "0.0.4"
+description = "Your project description"
+authors = [{name = "aibi10", email = "isingh.abhishek10@example.com"}]
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    # List your project dependencies here
+]
 
-[tool.mypy]
-mypy_path = "src"
-ignore_missing_imports = true
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -34,5 +34,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install flake8 pytest tox==3.24.5 tox-gh-actions==2.11.0
         pip install -r requirements.txt
+    - name: Install build dependencies
+      run: pip install build
     - name: Test with tox
       run: tox -v --recreate
