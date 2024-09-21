@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: Mongodb-Connect
+Version: 0.0.4
+Summary: A python package for connecting with database.
+Home-page: https://github.com/aibi10/monogodbconnector
+Author: aibi10
+Author-email: isingh.abhishek10@gmail.com
+Project-URL: Bug Tracker, https://github.com/aibi10/monogodbconnector/issues
