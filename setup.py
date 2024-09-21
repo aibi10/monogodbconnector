@@ -3,7 +3,7 @@ from typing import List
 
 HYPEN_E_DOT='-e .'
 
-def get_requiremet(file_path:str)->List[str]:
+'''def get_requiremet(file_path:str)->List[str]:
     requirements = []
     with open(file_path) as f:
         requirements=f.readlines()
@@ -11,10 +11,12 @@ def get_requiremet(file_path:str)->List[str]:
         
         if HYPEN_E_DOT in requirements:
             requirements.remove(HYPEN_E_DOT)
-    return requirements
+    return requirements'''
 
+   
 with open('README.md', 'r', encoding='utf-8') as f:
     long_description = f.read()     
+   
    
 
 __version__ = "0.0.4"
@@ -37,13 +39,6 @@ setup(
     },
     package_dir={"": "src"},
     packages=find_packages(where="src"),
-    install_requires = get_requiremet("requirements_dev.txt")
-    extras_require={
-        'dev': [
-            'mypy',
-            'flake8',
-            'pytest',
-            'pandas-stubs',
-            'types-pymongo',
-        ],
-    )
+    
+    
+)
