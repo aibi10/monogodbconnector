@@ -38,4 +38,12 @@ setup(
     package_dir={"": "src"},
     packages=find_packages(where="src"),
     install_requires = get_requiremet("requirements_dev.txt")
+    extras_require={
+        'dev': [
+            'mypy',
+            'flake8',
+            'pytest',
+            'pandas-stubs',
+            'types-pymongo',
+        ],
     )

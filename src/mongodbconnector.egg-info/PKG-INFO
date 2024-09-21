@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mongodbconnector
+Version: 0.0.4
+Summary: Your project description
+Home-page: https://github.com/aibi10/monogodbconnector
+Author: aibi10
+Author-email: aibi10 <isingh.abhishek10@example.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

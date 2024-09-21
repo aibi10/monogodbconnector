@@ -37,4 +37,4 @@ jobs:
     - name: Install build dependencies
       run: pip install build
     - name: Test with tox
-      run: tox -v --recreate
+      run: tox -vv --recreate

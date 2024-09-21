@@ -9,7 +9,8 @@ ensure
 
 
 tox==3.25.1
-black==22.8.0
 flake8
 pytest
-mypy
+mypy==0.812
+pandas-stubs
+types-pymongo
