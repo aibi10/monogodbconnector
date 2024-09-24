@@ -1,1 +1,1 @@
-from mongodbautomationaibi.crud import *
+from crud import mongo_operation
