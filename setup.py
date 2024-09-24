@@ -19,7 +19,7 @@ with open('README.md', 'r', encoding='utf-8') as f:
    
    
 
-__version__ = "0.0.4"
+__version__ = "0.0.6"
 REPO_NAME = "monogodbconnector"
 PKG_NAME= "mongodbautomationaibi"
 AUTHOR_USER_NAME = "aibi10"
